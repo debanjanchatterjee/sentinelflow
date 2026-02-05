@@ -23,6 +23,7 @@ dependencies = [
   "croniter>=2.0",
   "tenacity>=8.2",
   "python-json-logger>=2.0",
+  "prometheus-client>=0.16",
 ]
 
 # ---- Optional dependency groups ----
@@ -45,6 +46,7 @@ dev = [
   "black>=24.1",
   "ruff>=0.3",
   "mypy>=1.8",
+  "httpx>=0.24",
 ]
 
 # ---- Entry points (CLI-friendly) ----
